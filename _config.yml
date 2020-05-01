@@ -18,12 +18,12 @@ bio: I really like star wars movies, but not including the sequels.
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-#esume-external: true
+resume-external: true
 resume-url: https://drive.google.com/file/d/1lv-oIRGnEws2R8V36MnhAXDMtI3uvKfZ/view?usp=sharing
 #resume-url: assets/CV_2019-06-06.pdf
 
 #url: https://koppl.in/indigo
- your url: http://dongyanl1n.github.io
+#your url: http://dongyanl1n.github.io
 
 #permalink: /:title/
 
