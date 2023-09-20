@@ -56,29 +56,62 @@
 								<p class="small">
 									Hello there! My name is Dongyan (pronounced <i>Dong-yan</i>), I am a PhD student at 
 									<a href="http://mcgill.ca/ipn">Integrated Program in Neuroscience at McGill University</a> and <a href="http://mila.quebec/en">Mila</a>, supervised by
-									<a href="http://linclab.org">Dr. Blake Richards</a>. My research interest lies at the intersection of artificial intelligence and neuroscience, with a 
-									focus on the role of memory in reinforcement learning. 
-								</p>
-								<p class="small">
+									<a href="http://linclab.org">Blake Richards</a>. My research interest lies at the intersection of artificial intelligence and neuroscience. Specifically,
+									I am interested in unraveling the <b>general principles that govern both biological and artificial intelligence</b>, through the lens of representation learning.
+									<br>
+									<br>
+									During my PhD, I have been working on a few projects that looked at <b>representations in brains and machines</b> from different angles. I was fortunate to have the opportunity
+									to work with <a href="https://en.wikipedia.org/wiki/Alison_Gopnik">Alison Gopnik</a> (UC Berkeley), <a href="https://nke001.github.io/">Rosemary Ke</a> (DeepMind),
+									<a href="http://www.trenholmlab.com/">Stuart Trenholm</a> (McGill), and <a href="https://www.cshl.edu/research/faculty-staff/tatiana-engel/">Tatiana Engel</a> (CSHL)
+									on these collaborative projects.
+									<br>
+									<br>
 									I graduated from University of Toronto with Hon. B. Sc. in 2019, majoring in physiology while double-minoring in mathematics and psychology.
-									During my undergraduate studies, I received a combination of data analysis and experimental neuroscience training. 
-									I investigated in vitro calcium regulation of gamma oscillation in mouse hippocampus at <a href="http://prescottlab.ca">Prescott Lab</a> at Sickkids Hospital.
-									A year later, I flew to Japan to do a research internship at RIKEN on human genome annotation under the supervision of <a href="https://www.riken.jp/en/research/labs/ims/genom_algo/index.html">Dr. Michiel de Hoon</a>.
-									I also had the pleasure to work as the lab manager at <a href="http://duncanlab.org">Duncan Lab</a> for a year.
-
+									During my undergraduate studies, I received a combination of data analysis and experimental neuroscience training with <a href="http://prescottlab.ca">Steve Prescott</a> (Sickkids Hospital),
+									<a href="https://www.riken.jp/en/research/labs/ims/genom_algo/index.html">Michiel de Hoon</a> (RIKEN), and <a href="http://duncanlab.org">Katherine Duncan</a> (UofT).
+								</p>
 								<section>
 									<h2>Projects</h2>
 									<br/>
-								<h4>The representation of time in Deep Reinforcement Learning agents (<a href="https://www.biorxiv.org/content/10.1101/2021.07.15.452557v1">Preprint</a>)</h4>
-									<div>
-										<p><img src="uploads/2.1.png" ALIGN="right" style="width:40%">
-										<p class="small" ALIGN="left"><small>Time cells in the rodent hippocampus are theorized to integratively encode “what happened when” by forming distinct sequences of neuronal firing over extended temporal intervals following different sensory stimuli.
-										However, the effects of mnemonic demands and the temporal structure of the task on time cell encoding are poorly understood. Here, we trained deep reinforcement learning models on simulated working memory tasks and found that time cells naturally emerged
-										in the recurrent neural network. Furthermore, we found that time cells also emerged without working memory demands, but gradually lost information during the temporal delay. Our modelling results link reinforcement learning models with normative models of
-										temporal processing in neuroscience, and provide concrete experimental predictions for animal studies.
-										<br>
-										<br>This project is funded by <a href=https://ivado.ca/en/scholarships-and-grants/msc-excellence-scholarships/>IVADO Excellence Scholarship.</a></small></p>
-									</div>
+
+									<h5>Temporal encoding in Deep Reinforcement Learning agents</h5>
+										<div>
+											<p><img src="uploads/timecell_website.png" ALIGN="right" style="width:30%"/>
+											<p class="small" ALIGN="left"><small> To what extent does the temporal representations in the brain contribute to behaviour? Here, we trained deep reinforcement learning agents on
+											timing and time-dependent tasks, and showed the emergence of brain-like time representations in networks trained to calculate time implicitly. With virtual lesion experiments, we showed that the temporal representations largely contribute
+											to behaviour through recurrent dynamics, demonstrating dissociation between temporal tuning curves and timing behaviour.
+											<br>
+											<br>(<a href="https://www.biorxiv.org/content/10.1101/2021.07.15.452557v1">Cosyne 2022</a> / <a href="https://drive.google.com/file/d/1YZl9z_QWNQdWTzhYX8yWFc-7WTx_ymah/view?usp=sharing">RLDM 2022</a> / <a href="https://youtu.be/64V35BgprAs?t=3787">CCN 2022</a>)</small></p>
+										</div>
+
+									<h5>Deep-learning generated optimized images reveal tuning landscape in mouse higher visual cortex</h5>
+										<div>
+											<p><img src="uploads/OptStims_website.png" ALIGN="right" style="width:30%">
+											<p class="small" ALIGN="left"><small> In this work, we set out to answer the questions
+											"what do neurons in the visual cortex <i>like</i> to see? Do neurons in different visual areas like to see different images?" with deep learning models.
+											We show that mouse higher visual areas indeed prefer different visual stimuli, but their tuning landscape is more complex than single-neuron preference!
+											<br>
+											<br>(<a href="https://drive.google.com/file/d/18E51QTlIOrgtz-Y0NAo-zbsIk4cS8EVP/view?usp=sharing">SfN 2022</a>)</small></p>
+										</div>
+
+									<h5> Reconciling the Sherringtonian and Hopfieldian views on neural computations</h5></h4>
+										<div>
+											<p><img src="uploads/Screen Shot 2022-12-14 at 4.43.25 PM.png" ALIGN="right" style="width:30%"/>
+											<p class="small" ALIGN="left"><small>Since the original paper from <a href="https://www.nature.com/articles/s41583-021-00448-6"> Barack and Krakauer (2021) </a> came out, the field of
+											cognitive computational neuroscience has been debating if the brain is better understood from a single-neuron ("Sherringtonian") or population geometry ("Hopfieldian") approach, or if they could be merged, or if they should remain distinct but complementary perspectives.
+											We organized this GAC workshop to bring together researchers whose work provides different perspectives on the two paradigms, and the possibility of their reconciliation.
+											<br>
+											<br>(<a href="https://youtu.be/cl_Wa7CGm7A?si=ApjABdzvLY4OY3DB">CCN 2023 workshop recording</a> / <a href="https://drive.google.com/file/d/1dcqFJLm4SB_41H6pFOKtxuNhaXxm6tTb/view">Proposal</a>)</small></p>
+										</div>
+
+									<h5>Deep sequencing of short capped RNAs reveals novel families of noncoding RNAs</h5>
+										<div>
+											<p><img	src="uploads/CASPAR_website.png" ALIGN="right" style="width:30%"/>
+											<p class="small" ALIGN="left"><small> I'm grateful to have contributed to the work through my internship at RIKEN. We developed a sequencing protocol for short capped RNAs, applied it to the human cell line THP-1, and compared it with the landscape of long capped RNAs,
+											discovering distinct transcription initiation preferences and associations with disease SNPs. This deep sequencing elucidates the diverse array of transcripts from known and novel promoters and enhancers, revealing new noncoding RNA families.
+											<br>
+											<br>(<a href="https://genome.cshlp.org/content/32/9/1727.short">de Hoon et al., 2022 Genome Research</a>)</small></p>
+										</div>
 								</section>
 							</article>
 
@@ -88,7 +121,7 @@
 									<h2>Personal</h2>
 								</header>
 								<p class="small">
-									The purpose of this page is to share with you some of the things that I enjoy outside of the lab. 
+									The purpose of this page is to share with you some of the things that I enjoy outside the lab.
 								</p>
 								<!--
 								<h3>
@@ -133,8 +166,8 @@
 								</div>
 
 								  <p class="small">
-									  My all-time favourite TV show is <a href="https://en.wikipedia.org/wiki/Breaking_Bad">Breaking Bad</a>. 
-									  Honourable mentions include: <a href="https://en.wikipedia.org/wiki/BoJack_Horseman">BoJack Horseman</a>, <a href="https://en.wikipedia.org/wiki/Friends">Friends</a>, <a href="https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series)">The Newsroom</a>, 
+									  My all-time favourite TV show is <a href="https://en.wikipedia.org/wiki/Breaking_Bad">Breaking Bad</a>.
+									  Honourable mentions include: <a href="https://en.wikipedia.org/wiki/BoJack_Horseman">BoJack Horseman</a>, <a href="https://en.wikipedia.org/wiki/Friends">Friends</a>, <a href="https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series)">The Newsroom</a>,
 									  and <a href="https://en.wikipedia.org/wiki/How_I_Met_Your_Mother">How I Met Your Mother</a>.
 								  </p>
 								  <p class="small">
@@ -160,6 +193,7 @@
 								<a href="https://instagram.com/dongyanl1n" class="icon brands fa-instagram"></a>
 							</li>
 							<li>
+<!--								<a href="https://scholar.google.ca/citations?user=oYJypEAAAAAJ&hl=en" class="icon brands fa-google-scholar"></a>-->
 								<a href="https://scholar.google.ca/citations?user=oYJypEAAAAAJ&hl=en" class="ai ai-google-scholar-square"></a>
 							</li>
 						</ul>
