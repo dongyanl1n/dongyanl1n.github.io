@@ -1,0 +1,580 @@
+/* =========================================================================
+   Dongyan Lin — personal site
+   Design tokens reverse-engineered from catherinesyeh.github.io
+   (see .design_reference/DESIGN_NOTES.md). Plum accent #984b85, Noto Sans
+   headings, monospace lowercase nav, gradient clip-text, gradient image
+   borders, h2:before accent tab, hover lifts, fade-in-on-scroll.
+   ========================================================================= */
+
+:root {
+  /* Accent palette */
+  --accent: #984b85; /* primary mauve/plum */
+  --accent2: #505794; /* indigo */
+  --accent3: #b85c2a; /* burnt orange */
+  --accent4: #2f75b0; /* blue */
+
+  --med-accent: #ba79aa;
+  --med-accent2: #6a70ad; /* intentional palette reserve (unused) */
+  --med-accent3: #d27745;
+  --med-accent4: #649dd0; /* intentional palette reserve (unused) */
+
+  --light-accent: #debcd6;
+  --light-accent2: #bec2df; /* intentional palette reserve (unused) */
+  --light-accent3: #eec3ad;
+  --light-accent4: #d6e9f9; /* intentional palette reserve (unused) */
+
+  --lightest-accent: #fdf5fc; /* hover bg */
+  --lightest-accent2: #dfe2f3; /* selection bg */
+  --lightest-accent3: #fff1e6; /* intentional palette reserve (unused) */
+
+  /* Grays */
+  --dark-gray: #5b5b5b; /* body text / links */
+  --med-gray: #8b8b8b; /* muted */
+  --gray: #dddddd; /* borders */
+  --light-gray: #f7f7f7; /* card bg */
+  --near-black: #242424;
+  --nav-bg: #ffffffcc;
+
+  --transition: 0.3s ease;
+  --max-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  color: var(--dark-gray);
+  line-height: 1.55;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--lightest-accent2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  color: var(--near-black);
+  line-height: 1.25;
+}
+
+a {
+  color: var(--accent2);
+  text-decoration: none;
+  transition: opacity var(--transition), color var(--transition);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+p {
+  margin: 0.6rem 0;
+}
+
+/* -------------------------------------------------------------------------
+   Layout
+   ------------------------------------------------------------------------- */
+#app {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 5.2rem 2rem 3rem;
+}
+
+section {
+  margin-top: 4rem;
+  scroll-margin-top: 100px; /* fixed-nav anchor offset */
+}
+
+/* Signature little accent tab above each section heading */
+section > h2 {
+  position: relative;
+  font-size: 1.9rem;
+  margin-bottom: 1.5rem;
+}
+
+section > h2::before {
+  content: "";
+  position: absolute;
+  top: -1.5rem;
+  left: 0;
+  width: 2.5em;
+  height: 0.5rem;
+  background: var(--accent);
+  border-radius: 0.1rem;
+}
+
+/* -------------------------------------------------------------------------
+   Gradient clip-text (signature look)
+   ------------------------------------------------------------------------- */
+.grad1 {
+  background: linear-gradient(45deg, var(--accent3), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.grad2 {
+  background: linear-gradient(45deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* -------------------------------------------------------------------------
+   Navigation (fixed, translucent, gradient bottom border)
+   ------------------------------------------------------------------------- */
+nav.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--nav-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(-45deg, var(--light-accent3), var(--light-accent))
+    1;
+}
+
+nav.site-nav .nav-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+nav.site-nav .brand {
+  font-family: monospace;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--near-black);
+}
+
+nav.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.1rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+nav.site-nav a {
+  font-family: monospace;
+  text-transform: lowercase;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--dark-gray);
+}
+
+nav.site-nav a:hover {
+  color: var(--accent);
+  opacity: 1;
+}
+
+nav.site-nav a.active {
+  font-weight: 700;
+  color: var(--near-black);
+}
+
+/* -------------------------------------------------------------------------
+   Buttons / pills (monospace lowercase)
+   ------------------------------------------------------------------------- */
+.my-button {
+  font-family: monospace;
+  text-transform: lowercase;
+  font-size: 0.8rem;
+  border: 1px solid var(--gray);
+  background: #fff;
+  color: var(--dark-gray);
+  border-radius: 80px;
+  padding: 0.3rem 0.9rem;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.my-button:hover,
+.my-button.active {
+  background: var(--lightest-accent);
+  border-color: var(--med-accent);
+  color: var(--accent);
+}
+
+/* -------------------------------------------------------------------------
+   Home / masthead (About)
+   ------------------------------------------------------------------------- */
+#home {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+#home .home-text h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.3rem;
+}
+
+#home .home-text .tagline {
+  font-family: monospace;
+  color: var(--med-gray);
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+#home .home-text .role {
+  font-weight: 600;
+  color: var(--near-black);
+}
+
+/* Gradient image border via padding-box / border-box trick */
+.photo-frame {
+  border-radius: 0.4rem;
+  padding: 5px;
+  background: linear-gradient(-45deg, var(--med-accent), var(--med-accent3));
+  transition: transform var(--transition);
+  width: 100%;
+}
+
+.photo-frame:hover {
+  transform: scale(1.02);
+}
+
+.photo-frame img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0.3rem;
+  background: #fff;
+}
+
+/* Social icon row */
+.social-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.social-row a {
+  color: var(--med-gray);
+  font-size: 1.3rem;
+  transition: color var(--transition), transform var(--transition);
+}
+
+.social-row a:hover {
+  transform: translateY(-2px);
+  opacity: 1;
+}
+
+.social-row a:nth-child(4n + 1):hover {
+  color: var(--accent);
+}
+.social-row a:nth-child(4n + 2):hover {
+  color: var(--accent2);
+}
+.social-row a:nth-child(4n + 3):hover {
+  color: var(--accent3);
+}
+.social-row a:nth-child(4n + 4):hover {
+  color: var(--accent4);
+}
+
+/* Research interest chips */
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.interests .chip {
+  font-family: monospace;
+  text-transform: lowercase;
+  font-size: 0.78rem;
+  background: var(--light-gray);
+  color: var(--dark-gray);
+  border-radius: 80px;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid var(--gray);
+}
+
+/* -------------------------------------------------------------------------
+   News
+   ------------------------------------------------------------------------- */
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 1rem;
+  padding: 0.6rem 0.5rem;
+  border-radius: 0.3rem;
+  transition: background var(--transition), transform var(--transition);
+}
+
+.news-item:hover {
+  background: var(--lightest-accent);
+  transform: translateX(0.3rem);
+}
+
+.news-item .date {
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: var(--med-gray);
+  padding-top: 0.15rem;
+}
+
+.news-text a {
+  color: var(--accent);
+}
+
+/* -------------------------------------------------------------------------
+   Publications
+   ------------------------------------------------------------------------- */
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.pub-card {
+  background: var(--light-gray);
+  border: 1px solid var(--gray);
+  border-radius: 0.4rem;
+  padding: 1rem 1.2rem;
+  transition: transform var(--transition), box-shadow var(--transition),
+    border-color var(--transition);
+}
+
+.pub-card:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0 25px #0002;
+  border-color: var(--med-accent);
+}
+
+.pub-card .pub-title {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.02rem;
+  color: var(--near-black);
+  margin-bottom: 0.25rem;
+}
+
+.pub-card .pub-authors {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+.pub-card .pub-authors .me {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.pub-card .pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--med-gray);
+}
+
+.pub-card .pub-venue {
+  font-style: italic;
+}
+
+.pub-card .pub-year {
+  font-family: monospace;
+  font-weight: 700;
+  color: var(--accent2);
+}
+
+.pub-card .pub-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.pub-link {
+  font-family: monospace;
+  text-transform: lowercase;
+  font-size: 0.72rem;
+  border: 1px solid var(--gray);
+  border-radius: 80px;
+  padding: 0.1rem 0.6rem;
+  color: var(--dark-gray);
+}
+
+.pub-link:hover {
+  background: var(--lightest-accent);
+  color: var(--accent);
+  border-color: var(--med-accent);
+  opacity: 1;
+}
+
+.pub-cite {
+  font-family: monospace;
+  font-size: 0.72rem;
+  color: var(--med-gray);
+}
+
+/* -------------------------------------------------------------------------
+   Contact
+   ------------------------------------------------------------------------- */
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+  border: 1px solid var(--gray);
+  border-radius: 80px;
+  padding: 0.45rem 1rem;
+  transition: all var(--transition);
+}
+
+.contact-link:hover {
+  background: var(--lightest-accent);
+  color: var(--accent);
+  border-color: var(--med-accent);
+  transform: translateY(-2px);
+  opacity: 1;
+}
+
+.contact-link svg {
+  font-size: 1.1rem;
+}
+
+/* -------------------------------------------------------------------------
+   Footer
+   ------------------------------------------------------------------------- */
+footer.site-footer {
+  max-width: var(--max-width);
+  margin: 4rem auto 0;
+  padding: 1.5rem 2rem 3rem;
+  border-top: 1px solid var(--gray);
+  font-family: monospace;
+  font-size: 0.78rem;
+  color: var(--med-gray);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+footer.site-footer a {
+  color: var(--med-gray);
+}
+
+footer.site-footer a:hover {
+  color: var(--accent);
+}
+
+/* -------------------------------------------------------------------------
+   Responsive
+   ------------------------------------------------------------------------- */
+@media (max-width: 900px) {
+  #home {
+    grid-template-columns: 1fr 240px;
+    gap: 1.5rem;
+  }
+  #home .photo-frame img {
+    aspect-ratio: 3 / 4;
+  }
+}
+
+@media (max-width: 767px) {
+  #app {
+    /* taller top padding clears the fixed nav even if its links wrap to two rows */
+    padding: 7rem 1.2rem 2.5rem;
+  }
+  section {
+    scroll-margin-top: 130px; /* match the larger fixed-nav offset above */
+  }
+  footer.site-footer {
+    padding: 1.5rem 1.2rem 2.5rem;
+  }
+  #home {
+    grid-template-columns: 1fr;
+  }
+  #home .photo-wrap {
+    max-width: 280px;
+    order: -1;
+  }
+  #home .photo-frame img {
+    aspect-ratio: 3 / 2;
+  }
+  #home .home-text h1 {
+    font-size: 2.1rem;
+  }
+  nav.site-nav .nav-inner {
+    padding: 0.7rem 1.2rem;
+  }
+  nav.site-nav .brand {
+    display: none;
+  }
+  .news-item {
+    grid-template-columns: 70px 1fr;
+  }
+}
+
+@media (max-width: 433px) {
+  #app {
+    /* narrowest phones: nav is most likely to wrap, so reserve even more room */
+    padding-top: 8rem;
+  }
+  section {
+    scroll-margin-top: 150px;
+  }
+  nav.site-nav ul {
+    gap: 0.7rem;
+  }
+  nav.site-nav a {
+    font-size: 0.78rem;
+  }
+}

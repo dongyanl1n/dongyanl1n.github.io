@@ -1,0 +1,149 @@
+{
+  "source": "Google Scholar (user t_Xg9MIAAAAJ), supplemented by current site and Meta profile",
+  "scholar_profile": "https://scholar.google.com/citations?hl=en&user=t_Xg9MIAAAAJ",
+  "author_highlight": "Dongyan Lin",
+  "note": "Authors are listed as they appear on Google Scholar (abbreviated). 'D Lin' / 'Dongyan Lin' should be bolded in display. Sorted newest first. Citation counts captured 2026-06-01 and will change over time.",
+  "publications": [
+    {
+      "title": "EgoBabyVLM: Benchmarking Cross-Modal Learning from Naturalistic Egocentric Video Data",
+      "authors": "D Lin, P Rust, A V Corrales, A W M Tan, M Luthra, C\u00c9 Saint-James, et al.",
+      "venue": "arXiv preprint arXiv:2605.19130",
+      "year": 2026,
+      "type": "preprint",
+      "citations": 0,
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2605.19130",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:Se3iqnhoufwC"
+      }
+    },
+    {
+      "title": "Language Agents Mirror Human Causal Reasoning Biases: How Can We Help Them Think Like Scientists?",
+      "authors": "A GX-Chen, D Lin, M Samiei, D Precup, B A Richards, R Fergus, K Marino",
+      "venue": "arXiv preprint arXiv:2505.09614",
+      "year": 2025,
+      "type": "preprint",
+      "citations": 8,
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2505.09614",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:WF5omc3nYNoC"
+      }
+    },
+    {
+      "title": "LongTail-Swap: benchmarking language models' abilities on rare words",
+      "authors": "R Algayres, C\u00c9 Saint-James, M Luthra, J Shen, D Lin, Y Benchekroun, et al.",
+      "venue": "arXiv preprint arXiv:2510.04268",
+      "year": 2025,
+      "type": "preprint",
+      "citations": 2,
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2510.04268",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:_FxGoFyzp5QC"
+      }
+    },
+    {
+      "title": "SpidR-Adapt: A Universal Speech Representation Model for Few-Shot Adaptation",
+      "authors": "M Luthra, J Shen, M Poli, A Ortiz, Y Higuchi, Y Benchekroun, M Gleize, D Lin, et al.",
+      "venue": "arXiv preprint arXiv:2512.21204",
+      "year": 2025,
+      "type": "preprint",
+      "citations": 0,
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2512.21204",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:roLk4NBRz8UC"
+      }
+    },
+    {
+      "title": "Understanding the capabilities and constraints of single-neuron tuning curves with deep learning models",
+      "authors": "D Lin",
+      "venue": "PhD Thesis, McGill University",
+      "year": 2025,
+      "type": "thesis",
+      "citations": 0,
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:LkGwnXOMwfcC"
+      }
+    },
+    {
+      "title": "Fine-tuned network relies on generic representation to solve unseen cognitive task",
+      "authors": "D Lin",
+      "venue": "arXiv preprint arXiv:2406.18926",
+      "year": 2024,
+      "type": "preprint",
+      "citations": 1,
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2406.18926",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:Y0pCki6q_DkC"
+      }
+    },
+    {
+      "title": "Testing causal hypotheses through Hierarchical Reinforcement Learning",
+      "authors": "A GX-Chen, D Lin, M Samiei",
+      "venue": "Intrinsically-Motivated and Open-Ended Learning Workshop @ NeurIPS 2024",
+      "year": 2024,
+      "type": "workshop",
+      "citations": 0,
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:zYLM7Y9cAGgC"
+      }
+    },
+    {
+      "title": "The feature landscape of visual cortex",
+      "authors": "R Tong, R da Silva, D Lin, A Ghosh, J Wilsenach, E Cianfarano, et al.",
+      "venue": "bioRxiv 2023.11.03.565500",
+      "year": 2023,
+      "type": "preprint",
+      "citations": 22,
+      "links": {
+        "biorxiv": "https://www.biorxiv.org/content/10.1101/2023.11.03.565500v1",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:YsMSGLbcyi4C"
+      }
+    },
+    {
+      "title": "Temporal encoding in deep reinforcement learning agents",
+      "authors": "D Lin, A Z Huang, B A Richards",
+      "venue": "Scientific Reports 13 (1), 22335",
+      "year": 2023,
+      "type": "journal",
+      "citations": 14,
+      "links": {
+        "doi": "https://www.nature.com/articles/s41598-023-49847-y",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:IjCSPb-OGe4C"
+      }
+    },
+    {
+      "title": "Deep sequencing of short capped RNAs reveals novel families of noncoding RNAs",
+      "authors": "M de Hoon, A Bonetti, C Plessy, Y Ando, C C Hon, Y Ishizu, M Itoh, S Kato, D Lin, et al.",
+      "venue": "Genome Research 32 (9), 1727",
+      "year": 2022,
+      "type": "journal",
+      "citations": 3,
+      "links": {
+        "doi": "https://genome.cshlp.org/content/32/9/1727.short",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:eQOLeE2rZwMC"
+      }
+    },
+    {
+      "title": "Time cell encoding is decoupled from time perception in deep reinforcement learning agents",
+      "authors": "A Z Huang, D Lin, B Richards",
+      "venue": "Cognitive Computational Neuroscience (CCN)",
+      "year": 2022,
+      "type": "conference",
+      "citations": 0,
+      "links": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:Tyk-4Ss8FVUC"
+      }
+    },
+    {
+      "title": "Time cell encoding in deep reinforcement learning agents depends on mnemonic demands",
+      "authors": "D Lin, B A Richards",
+      "venue": "bioRxiv 2021.07.15.452557",
+      "year": 2021,
+      "type": "preprint",
+      "citations": 9,
+      "links": {
+        "biorxiv": "https://www.biorxiv.org/content/10.1101/2021.07.15.452557v1",
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:UeHWp8X0CEIC"
+      }
+    }
+  ]
+}
