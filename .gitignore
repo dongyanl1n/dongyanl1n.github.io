@@ -18,3 +18,6 @@ pnpm-debug.log*
 # Local helper folders (not for publishing)
 .content/
 .design_reference/
+
+# Old template uploads (kept locally, no longer published)
+uploads/
