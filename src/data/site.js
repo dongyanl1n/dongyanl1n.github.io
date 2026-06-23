@@ -44,12 +44,16 @@ export const links = {
 // contain inline links (rendered via dangerouslySetInnerHTML in News.jsx).
 export const news = [
   {
+    date: "Jun 2026",
+    html: "I'm attending <a href=\"https://icml.cc/\" target=\"_blank\" rel=\"noopener noreferrer\">ICML 2026</a> in Seoul, Korea from July 6\u201311 \u2014 say hi if you're around, I'd love to meet up!",
+  },
+  {
     date: "May 2026",
-    html: 'Released our <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:Se3iqnhoufwC" target="_blank" rel="noopener noreferrer">EgoBabyVLM</a> paper.',
+    html: 'Excited to share our <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:Se3iqnhoufwC" target="_blank" rel="noopener noreferrer">EgoBabyVLM</a> paper! Check out our <a href="https://github.com/facebookresearch/egobabyvlm" target="_blank" rel="noopener noreferrer">GitHub repo</a> and <a href="https://facebookresearch.github.io/egobabyvlm" target="_blank" rel="noopener noreferrer">challenge page</a>.',
   },
   {
     date: "Apr 2026",
-    html: 'Our collaboration paper "Human Adults and LLMs as Scientists: Who Benefits from Active Exploration?" was accepted at CogSci 2026.',
+    html: 'Our collaboration paper "<a href="https://arxiv.org/abs/2606.06464" target="_blank" rel="noopener noreferrer">Human Adults and LLMs as Scientists: Who Benefits from Active Exploration?</a>" was accepted at CogSci 2026.',
   },
   {
     date: "Apr 2026",
