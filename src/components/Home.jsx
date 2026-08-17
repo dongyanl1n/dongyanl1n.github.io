@@ -31,7 +31,8 @@ export default function Home() {
 
         {/* Bio prose. Edit here. */}
         <p>
-          I'm a <strong>Postdoctoral Researcher</strong> at{" "}
+          I'm a <strong>Postdoctoral Researcher</strong> on the Developmental
+          AI team at{" "}
           <a href={profile.affiliationUrl} target="_blank" rel="noopener noreferrer">
             Meta FAIR
           </a>
@@ -95,7 +96,7 @@ export default function Home() {
           to bridge artificial and biological intelligence.
         </p>
         <p>
-          I received my{" "}
+          I completed my{" "}
           <a
             href="https://www.proquest.com/openview/c38450ee62fa903a3344824426752e5d/1?pq-origsite=gscholar&cbl=18750&diss=y"
             target="_blank"
@@ -103,11 +104,74 @@ export default function Home() {
           >
             Ph.D.
           </a>{" "}
-          from{" "}
+          in Computational Neuroscience at{" "}
+          <a href="https://mila.quebec/en" target="_blank" rel="noopener noreferrer">
+            Mila
+          </a>{" "}
+          and{" "}
           <a href="http://mcgill.ca/ipn" target="_blank" rel="noopener noreferrer">
             McGill University
           </a>
-          , where I studied brain–AI representational alignment.
+          , where I was advised by{" "}
+          <a href="http://linclab.org" target="_blank" rel="noopener noreferrer">
+            Blake Richards
+          </a>{" "}
+          and studied brain–AI representational alignment. Along the way, I
+          was a visiting researcher at{" "}
+          <a
+            href="https://bair.berkeley.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Berkeley AI Research (BAIR)
+          </a>
+          , working with{" "}
+          <a
+            href="https://alisongopnik.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Alison Gopnik
+          </a>{" "}
+          on causally-guided exploration in children and RL agents, and a
+          Neuro-AI intern at{" "}
+          <a href="https://www.cshl.edu/" target="_blank" rel="noopener noreferrer">
+            Cold Spring Harbor Laboratory
+          </a>
+          , working with{" "}
+          <a
+            href="https://www.cshl.edu/research/faculty-staff/tatiana-engel/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tatiana Engel
+          </a>{" "}
+          on reconciling neuron- and population-level accounts of neural
+          computation. Before grad school, I earned my B.Sc. at the{" "}
+          <a
+            href="https://www.utoronto.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            University of Toronto
+          </a>{" "}
+          and spent a summer doing computational biology research at{" "}
+          <a
+            href="https://www.riken.jp/en/research/labs/ims/genom_algo/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            RIKEN
+          </a>
+          .
+        </p>
+        <p>
+          I also love teaching — I've been a TA for the machine learning
+          module at the{" "}
+          <a href="http://imbizo.africa/" target="_blank" rel="noopener noreferrer">
+            IBRO-Simons Computational Neuroscience Imbizo
+          </a>{" "}
+          summer school in Cape Town, a highlight I still love talking about.
         </p>
 
         <div className="interests">
