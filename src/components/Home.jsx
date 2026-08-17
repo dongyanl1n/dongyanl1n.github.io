@@ -29,6 +29,12 @@ export default function Home() {
           · {profile.location}
         </p>
 
+        <div className="photo-wrap">
+          <div className="photo-frame">
+            <img src={profile.photo} alt={`${profile.name} headshot`} />
+          </div>
+        </div>
+
         {/* Bio prose. Edit here. */}
         <p>
           I'm a <strong>Postdoctoral Researcher</strong> on the Developmental
@@ -240,12 +246,6 @@ export default function Home() {
           >
             <FaFilePdf aria-hidden="true" />
           </a>
-        </div>
-      </div>
-
-      <div className="photo-wrap">
-        <div className="photo-frame">
-          <img src={profile.photo} alt={`${profile.name} headshot`} />
         </div>
       </div>
     </section>
