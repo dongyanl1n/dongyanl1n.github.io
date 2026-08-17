@@ -31,7 +31,18 @@ export default function Home() {
 
         <div className="photo-wrap">
           <div className="photo-frame">
-            <img src={profile.photo} alt={`${profile.name} headshot`} />
+            <div className="photo-stack">
+              <img
+                className="photo-default"
+                src={profile.photo}
+                alt={`${profile.name} headshot`}
+              />
+              <img
+                className="photo-hover"
+                src={profile.photoHover}
+                alt={`${profile.name} at CCN 2026`}
+              />
+            </div>
           </div>
         </div>
 

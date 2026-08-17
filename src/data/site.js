@@ -14,6 +14,7 @@ export const profile = {
   location: "New York, USA",
   email: "dongyanlin@meta.com",
   photo: "/photo.jpg", // .content/assets/current_site_photo.JPG -> public/photo.jpg
+  photoHover: "/ccn_2026.png", // shown on hover in place of `photo` (see Home.jsx)
   // NB: the bio prose lives as JSX in src/components/Home.jsx (so the inline
   // links render cleanly). Edit it there.
   interests: [
