@@ -157,7 +157,7 @@ export default function Home() {
           </a>
           , working with{" "}
           <a
-            href="https://www.cshl.edu/research/faculty-staff/tatiana-engel/"
+            href="https://pni.princeton.edu/people/tatiana-engel"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -174,7 +174,7 @@ export default function Home() {
           </a>{" "}
           and spent a summer doing computational biology research at{" "}
           <a
-            href="https://www.riken.jp/en/research/labs/ims/genom_algo/"
+            href="https://acgt.riken.jp/"
             target="_blank"
             rel="noopener noreferrer"
           >
