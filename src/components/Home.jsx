@@ -172,12 +172,13 @@ export default function Home() {
           .
         </p>
         <p>
-          I also love teaching — I've been a TA for the machine learning
-          module at the{" "}
+          During my PhD I used to spend northern hemisphere winters, or
+          southern hemisphere summers, in Cape Town teaching at the{" "}
           <a href="http://imbizo.africa/" target="_blank" rel="noopener noreferrer">
             IBRO-Simons Computational Neuroscience Imbizo
           </a>{" "}
-          summer school in Cape Town, a highlight I still love talking about.
+          summer school. You should get involved if you're passionate about
+          sharing knowledge and boosting African neuroscience.
         </p>
 
         <div className="interests">
