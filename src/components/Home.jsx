@@ -29,33 +29,85 @@ export default function Home() {
           · {profile.location}
         </p>
 
-        {/* Bio prose (from the current site). Edit here. */}
+        {/* Bio prose. Edit here. */}
         <p>
-          Hello there! My name is Dongyan (pronounced <em>Dong-yan</em>). I am a
-          researcher in the{" "}
+          I'm a <strong>Postdoctoral Researcher</strong> at{" "}
           <a href={profile.affiliationUrl} target="_blank" rel="noopener noreferrer">
-            Fundamental AI Research (FAIR) team at Meta
+            Meta FAIR
+          </a>
+          , working at the intersection of <strong>human cognition</strong> and{" "}
+          <strong>artificial intelligence</strong>. I build AI systems inspired
+          by how humans learn — through{" "}
+          <a
+            href="https://www.nature.com/articles/s41598-023-49847-y"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            reinforcement learning
+          </a>
+          ,{" "}
+          <a
+            href="https://arxiv.org/abs/2605.19130"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            multimodal grounding
+          </a>
+          , and{" "}
+          <a
+            href="https://arxiv.org/abs/2606.06464"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            autonomous exploration
           </a>{" "}
-          in NYC, working on building AI models that think and act more
-          human-like.
+          — and use AI as a tool to advance scientific discovery in cognitive
+          and neuroscience.
         </p>
         <p>
-          Previously I did my PhD at the{" "}
-          <a href="http://mcgill.ca/ipn" target="_blank" rel="noopener noreferrer">
-            Integrated Program in Neuroscience at McGill University
+          I'm particularly interested in making foundation models more{" "}
+          <strong>creative</strong>: overcoming the{" "}
+          <a
+            href="https://arxiv.org/abs/2505.09614"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            cognitive biases they inherit from human-generated data
           </a>{" "}
-          and{" "}
-          <a href="http://mila.quebec/en" target="_blank" rel="noopener noreferrer">
-            Mila
+          and enabling them to produce genuinely novel scientific insights. I
+          also study the{" "}
+          <a
+            href="https://www.biorxiv.org/content/10.1101/2023.11.03.565500v1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            alignment between representations in large language models and the
+            human brain
           </a>
-          , supervised by{" "}
-          <a href="http://linclab.org" target="_blank" rel="noopener noreferrer">
-            Blake Richards
+          , using{" "}
+          <a
+            href="https://arxiv.org/abs/2406.18926"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            mechanistic interpretability
+          </a>{" "}
+          to bridge artificial and biological intelligence.
+        </p>
+        <p>
+          I received my{" "}
+          <a
+            href="https://www.proquest.com/openview/c38450ee62fa903a3344824426752e5d/1?pq-origsite=gscholar&cbl=18750&diss=y"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ph.D.
+          </a>{" "}
+          from{" "}
+          <a href="http://mcgill.ca/ipn" target="_blank" rel="noopener noreferrer">
+            McGill University
           </a>
-          . My research interest lies at the intersection of artificial
-          intelligence and neuroscience. Specifically, I am interested in
-          unraveling the general principles that govern both biological and
-          artificial intelligence, through the lens of representation learning.
+          , where I studied brain–AI representational alignment.
         </p>
 
         <div className="interests">

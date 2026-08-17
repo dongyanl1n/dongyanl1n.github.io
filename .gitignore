@@ -21,3 +21,17 @@ pnpm-debug.log*
 
 # Old template uploads (kept locally, no longer published)
 uploads/
+
+# CV LaTeX source (only the built PDF in public/ is published)
+main.tex
+*.aux
+*.log
+*.out
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
