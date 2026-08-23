@@ -25,11 +25,6 @@ export default function Contact() {
   return (
     <FadeInSection id="contact">
       <h2>Contact</h2>
-      <p>
-        Feel free to reach out — I'm always happy to chat about AI, neuroscience,
-        or representation learning. You can email me at{" "}
-        <a href={links.email}>{profile.email}</a> or find me here:
-      </p>
       <div className="contact-grid">
         {ITEMS.map((it) => (
           <a

@@ -45,6 +45,10 @@ export const links = {
 // contain inline links (rendered via dangerouslySetInnerHTML in News.jsx).
 export const news = [
   {
+    date: "Jul 2026",
+    html: 'Our <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:Se3iqnhoufwC" target="_blank" rel="noopener noreferrer">EgoBabyVLM</a> work was covered in <a href="https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/" target="_blank" rel="noopener noreferrer">WIRED</a>.',
+  },
+  {
     date: "Jun 2026",
     html: "I'm attending <a href=\"https://icml.cc/\" target=\"_blank\" rel=\"noopener noreferrer\">ICML 2026</a> in Seoul, Korea from July 6\u201311 \u2014 say hi if you're around, I'd love to meet up!",
   },
