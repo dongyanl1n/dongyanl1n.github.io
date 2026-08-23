@@ -24,6 +24,10 @@ uploads/
 
 # CV LaTeX source (only the built PDF in public/ is published)
 main.tex
+
+# Job-application CV variants (never publish these)
+cv_*.tex
+cv_*.pdf
 *.aux
 *.log
 *.out
