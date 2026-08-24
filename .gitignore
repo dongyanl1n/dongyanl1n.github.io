@@ -28,6 +28,7 @@ main.tex
 # Job-application CV variants (never publish these)
 cv_*.tex
 cv_*.pdf
+cv/
 *.aux
 *.log
 *.out
