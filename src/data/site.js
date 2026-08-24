@@ -45,8 +45,8 @@ export const links = {
 // contain inline links (rendered via dangerouslySetInnerHTML in News.jsx).
 export const news = [
   {
-    date: "Jul 2026",
-    html: 'Our <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:Se3iqnhoufwC" target="_blank" rel="noopener noreferrer">EgoBabyVLM</a> work was covered in <a href="https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/" target="_blank" rel="noopener noreferrer">WIRED</a>.',
+    date: "Aug 2026",
+    html: 'Our <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t_Xg9MIAAAAJ&citation_for_view=t_Xg9MIAAAAJ:Se3iqnhoufwC" target="_blank" rel="noopener noreferrer">EgoBabyVLM</a> work was covered in <a href="https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/" target="_blank" rel="noopener noreferrer">WIRED</a> and <a href="https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/" target="_blank" rel="noopener noreferrer">MIT Technology Review</a>.',
   },
   {
     date: "Jun 2026",
