@@ -99,8 +99,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            alignment between representations in large language models and the
-            human brain
+            alignment between representations in AI models and biological
+            brains
           </a>
           , using{" "}
           <a
