@@ -76,8 +76,4 @@ export const news = [
     date: "Jul 2025",
     html: 'Our collaboration paper "<a href="https://arxiv.org/abs/2505.09614" target="_blank" rel="noopener noreferrer">Language Agents Mirror Human Causal Reasoning Biases: How Can We Help Them Think Like Scientists?</a>" was accepted at COLM 2025.',
   },
-  {
-    date: "Dec 2024",
-    html: "Defended my PhD and started a postdoc at Meta FAIR.",
-  },
 ];
