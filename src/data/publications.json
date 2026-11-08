@@ -5,6 +5,17 @@
   "note": "Authors are listed as they appear on Google Scholar (abbreviated). 'D Lin' / 'Dongyan Lin' should be bolded in display. Sorted newest first. Citation counts captured 2026-06-01 and will change over time.",
   "publications": [
     {
+      "title": "GSLM2: Multi-Stream Speech Representation Learning and Generative Spoken Language Modeling",
+      "authors": "Y Higuchi, T Fizycki, M Luthra, C\u00c9 Saint-James, A Syed, A Villar-Corrales, M Assran, N Ballas, J Shen, D Lin, P Rust, S Parimi, V Stark, A Allauzen, B Kegl, J Pino, E Dupoux",
+      "venue": "arXiv preprint arXiv:2611.01143",
+      "year": 2026,
+      "type": "preprint",
+      "citations": 0,
+      "links": {
+        "arxiv": "https://arxiv.org/abs/2611.01143"
+      }
+    },
+    {
       "title": "EgoBabyVLM: Benchmarking Cross-Modal Learning from Naturalistic Egocentric Video Data",
       "authors": "D Lin, P Rust, A V Corrales, A W M Tan, M Luthra, C\u00c9 Saint-James, et al.",
       "venue": "arXiv preprint arXiv:2605.19130",
